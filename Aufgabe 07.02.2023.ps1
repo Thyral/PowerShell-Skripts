@@ -18,7 +18,6 @@ function abfrage() {
         addition
     } elseif ($functionquest -eq 2) {
         subtraktion
-        <# Action when this condition is true #>
     } elseif ($functionquest -eq 3 ) {
         multiplikation
     } else {
