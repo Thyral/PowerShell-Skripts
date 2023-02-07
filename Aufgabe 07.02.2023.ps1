@@ -12,7 +12,7 @@
 function abfrage() {
     [int] $zahl1 = Read-Host("Bitte geben Sie die 1. Zahl ein")
     [int] $zahl2 = Read-Host("Bitte geben Sie die 2. Zahl ein")
-   [int] $functionquest = Read-Host("Bitte geben Sie die Zahl 1 - 4 ein (1 = Addition; 2 = Subtraktion; 3 = Multiplikation; 4 = Divition)")
+    [int] $functionquest = Read-Host("Bitte geben Sie die Zahl 1 - 4 ein (1 = Addition; 2 = Subtraktion; 3 = Multiplikation; 4 = Divition)")
 
     if($functionquest -eq 1) {
         addition
