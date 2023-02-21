@@ -1,14 +1,15 @@
-# Aufgabe zur Deklaration von Variablen mit jeweiligen Datentypen
+# Aufgabe 1 zur Deklaration von Variablen mit jeweiligen Datentypen
 
-#[int] $id = 1
-#[long] $ticketnummer = 963927
-#[float] $geldbetrag = 3.1419
-#[double] $kontostand = 19.9383
-#[string] $name = "TJ"
-#[bool] $wert = "false"
+[int] $id = 1
+[long] $ticketnummer = 963927
+[float] $geldbetrag = 3.1419
+[double] $kontostand = 19.9383
+[string] $name = "TJ"
+[bool] $wert = "false"
 
 
 # Aufgabe 2
+
 function abfrage() {
     [int] $zahl1 = Read-Host("Bitte geben Sie die 1. Zahl ein")
     [int] $zahl2 = Read-Host("Bitte geben Sie die 2. Zahl ein")
